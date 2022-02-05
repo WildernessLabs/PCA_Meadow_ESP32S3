@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.1016
         }
       },
       "diff_pair_dimensions": [
@@ -125,7 +125,8 @@
         0.09906,
         0.1524,
         0.2032,
-        0.3048
+        0.3048,
+        0.508
       ],
       "via_dimensions": [
         {
@@ -430,7 +431,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "nets": [],
+        "nets": [
+          "/ESP32-S3/ANT_EX",
+          "/ESP32-S3/ANT_W3008",
+          "/ESP32-S3/RF_50OHM",
+          "Net-(ANT1-PadFEED)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.146812,
@@ -466,7 +472,13 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "nets": [],
+        "nets": [
+          "/ESP32-S3/USBDR_N",
+          "/ESP32-S3/USBDR_P",
+          "/USB_D_N",
+          "/USB_D_P",
+          "/USB_POWER/+5V_VBUS"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
