@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -59,7 +59,7 @@
       36
     ],
     "visible_layers": "001ff57_80000005",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "PCA_Meadow_Esp32S3.kicad_prl",
