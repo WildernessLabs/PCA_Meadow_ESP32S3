@@ -1530,6 +1530,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8de56685-f76d-4e14-8444-1b1d00506a60)
   )
+  (label "GPIO0{slash}BOOT" (at 73.66 49.53 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 90dc646b-1260-4819-b979-749c6156871c)
+  )
   (label "USB_D_P" (at 243.84 60.96 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9186dae5-6dc3-4744-9f90-e697559c6ac8)
@@ -2381,9 +2385,6 @@
     (path "/00000000-0000-0000-0000-000060105976"
       (reference "#PWR05") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d0a6362/fc30d461-1863-4660-bcca-1ad4eb627b6b"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000601bfbdb"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
@@ -2690,11 +2691,29 @@
     (path "/00000000-0000-0000-0000-0000601adad2"
       (reference "SW2") (unit 1) (value "SW_434153017835") (footprint "SLJ_SMT:WURTH_434153017835")
     )
+    (path "/00000000-0000-0000-0000-00005d0a6362/f941df0b-ee4b-43bf-bf78-09491735ff0c"
+      (reference "TP1") (unit 1) (value "PAD_0.6X0.6MM") (footprint "SLJ_Mechanical:PAD_SQ_0.6X0.6MM")
+    )
+    (path "/00000000-0000-0000-0000-00005d0a6362/ccfdddb4-12ca-4ac5-b8f5-740e0444ee8d"
+      (reference "TP2") (unit 1) (value "PAD_0.6X0.6MM") (footprint "SLJ_Mechanical:PAD_SQ_0.6X0.6MM")
+    )
+    (path "/00000000-0000-0000-0000-00005d0a6362/fc6e46e3-c1af-4cec-aabb-afedc388f73e"
+      (reference "TP3") (unit 1) (value "PAD_0.6X0.6MM") (footprint "SLJ_Mechanical:PAD_SQ_0.6X0.6MM")
+    )
     (path "/00a91818-3825-47db-be67-62fe11188b47"
       (reference "TP4") (unit 1) (value "TestPoint_SMT_loop_1X1.8MM") (footprint "SLJ_Mechanical:TP_S2761-46R")
     )
     (path "/c8395e31-d0fc-4a57-92c2-6448796c3764"
       (reference "TP5") (unit 1) (value "TestPoint_SMT_loop_1X1.8MM") (footprint "SLJ_Mechanical:TP_S2761-46R")
+    )
+    (path "/00000000-0000-0000-0000-00005d0a6362/a1bfc06f-bea3-41f5-afc1-4d637e2b9376"
+      (reference "TP6") (unit 1) (value "PAD_0.6X0.6MM") (footprint "SLJ_Mechanical:PAD_SQ_0.6X0.6MM")
+    )
+    (path "/00000000-0000-0000-0000-00005d0a6362/4d5b5acb-5815-4167-8685-dd6668c837fe"
+      (reference "TP7") (unit 1) (value "PAD_0.6X0.6MM") (footprint "SLJ_Mechanical:PAD_SQ_0.6X0.6MM")
+    )
+    (path "/00000000-0000-0000-0000-00005d0a6362/29348f43-4d58-4ce3-9a87-5d8f402e0de3"
+      (reference "TP8") (unit 1) (value "PAD_0.6X0.6MM") (footprint "SLJ_Mechanical:PAD_SQ_0.6X0.6MM")
     )
     (path "/00000000-0000-0000-0000-00005ff6caf7/00000000-0000-0000-0000-0000608262cf"
       (reference "TP9") (unit 1) (value "PAD_0.6X0.6MM") (footprint "SLJ_Mechanical:PAD_SQ_0.6X0.6MM")
