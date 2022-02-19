@@ -5,10 +5,10 @@
   (paper "B")
 
   (title_block
-    (title "F7 Micro Meadow")
-    (date "2021-12-30")
-    (rev "V1")
-    (comment 1 "S.Johnson")
+    (title "ESP32-S3 Development")
+    (date "2022-02-19")
+    (rev "1.b")
+    (comment 1 "S. Johnson")
   )
 
   (lib_symbols
@@ -2385,6 +2385,9 @@
     (path "/00000000-0000-0000-0000-000060105976"
       (reference "#PWR05") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/e9b2ab8f-58af-43ab-9c92-8657d3c5cc75"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000601bfbdb"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
@@ -2451,8 +2454,8 @@
     (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/9e92b346-6b48-4b37-b3df-2492aaeaa2bb"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/9b9cc486-0ded-476c-9dbb-b2dae0b71220"
-      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+    (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/4538e096-84b7-40d6-aa53-0eeefee49d9a"
+      (reference "#PWR0112") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/f85406ac-c9ab-4ea6-b644-1931d9defc76"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
@@ -2520,9 +2523,6 @@
     (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/488b4069-4600-4597-a390-26f6f9aae21e"
       (reference "C11") (unit 1) (value "C_0402_0.1UF_10V_X5R") (footprint "SLJ_SMT:C_0402_1005Metric")
     )
-    (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/6b955788-a63f-4871-9e70-f157ca12807a"
-      (reference "C12") (unit 1) (value "C_0402_0.1UF_10V_X5R") (footprint "SLJ_SMT:C_0402_1005Metric")
-    )
     (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/a696c8b9-8c05-4593-98d4-811d53355efa"
       (reference "C13") (unit 1) (value "C_0402_0.022UF_50V_X5R") (footprint "SLJ_SMT:C_0402_1005Metric")
     )
@@ -2540,6 +2540,12 @@
     )
     (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/022adaf3-3a6f-445b-942b-54961357eec1"
       (reference "C18") (unit 1) (value "C_0402_12pF_50V_X5R") (footprint "SLJ_SMT:C_0402_1005Metric")
+    )
+    (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/545dcca5-4516-4b56-930c-fa32800a5d09"
+      (reference "C19") (unit 1) (value "C_0402_10UF_10V_X5R") (footprint "SLJ_SMT:C_0402_1005Metric")
+    )
+    (path "/2dd2edde-b79d-4ec7-87aa-5955ab5302f8/f382d66b-59af-49a6-b681-ac7f024ec6d9"
+      (reference "C20") (unit 1) (value "C_0201_0.47UF_6.3V_X5R") (footprint "SLJ_SMT:C_0201")
     )
     (path "/00000000-0000-0000-0000-00005ff6caf7/00000000-0000-0000-0000-00005ffff50b"
       (reference "C33") (unit 1) (value "C_0402_4.7UF_10V_X5R_10%") (footprint "SLJ_SMT:C_0402_1005Metric")

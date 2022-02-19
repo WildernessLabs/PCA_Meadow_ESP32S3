@@ -528,7 +528,7 @@
       "idf": "",
       "netlist": "F7MicroEmbed_RevA.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Assembly/PCA_Meadow_Esp32S3.step",
       "vrml": ""
     },
     "page_layout_descr_file": "C:/Wildernesslabs/Circuit_Part_Libraries/Libraries_Kicad/WildernessLab_pagelayout.kicad_wks"

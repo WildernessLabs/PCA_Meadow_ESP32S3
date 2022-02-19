@@ -5,10 +5,10 @@
   (paper "B")
 
   (title_block
-    (title "F7 Micro Meadow")
-    (date "2021-12-30")
-    (rev "V1")
-    (comment 1 "S.Johnson")
+    (title "ESP32-S3 Development")
+    (date "2022-02-19")
+    (rev "1.b")
+    (comment 1 "S. Johnson")
   )
 
   (lib_symbols
