@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|174796857|130297505|f70c735f-94b9-4f03-9d8a-a8b417eb846e|0d3b3692-a297-45b2-ace7-65f03184b9f9",
+        "clearance|177442457|89621500|19a5947c-ddfd-4cef-a50e-d6200e1a42d6|1200673d-b2ca-414e-bac3-885bbdf7d3d1",
+        "clearance|177747257|88884900|5300c98e-3ae2-4e4f-992d-85b831f33b1d|d5f0102a-ccd2-481d-aac9-a500663069d8",
+        "clearance|178121458|92189300|baa49b15-b392-4222-9def-1aeb9e7cd2db|833eacaa-a6d3-4911-8432-b9760f2891c7",
+        "clearance|178121458|92189300|baa49b15-b392-4222-9def-1aeb9e7cd2db|d9e61282-8687-4b7d-afff-b0cd69e1634b",
+        "malformed_courtyard|176832857|88021300|77aa92e7-fbdc-48fb-aa69-35a8ea21ae59|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|176832857|89570700|77aa92e7-fbdc-48fb-aa69-35a8ea21ae59|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|176985257|89570700|77aa92e7-fbdc-48fb-aa69-35a8ea21ae59|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
